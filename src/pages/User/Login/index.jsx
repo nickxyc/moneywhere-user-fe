@@ -78,8 +78,8 @@ export default () => {
         <LoginForm
           formRef={formRef}
           logo={<img alt="logo" src="/logo.svg" />}
-          title="九快记账"
-          subTitle="记账是一种生活态度"
+          title="超超记账"
+          subTitle="记账是一种很傻逼的行为"
           initialValues={{
             remember: false,
           }}

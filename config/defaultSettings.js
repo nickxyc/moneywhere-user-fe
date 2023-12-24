@@ -7,7 +7,7 @@ export default {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: '九快记账',
+  title: '超超记账',
   pwa: false,
   logo: '/logo.svg',
   iconfontUrl: '',

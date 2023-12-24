@@ -12,13 +12,13 @@
 export default {
   dev: {
     '/api/v1': {
-      target: 'http://127.0.0.1:9092/',
+      target: 'http://192.168.31.5:9092/',
       // target: 'https://web.moneywhere.com/',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },
     '/user-api/': {
-      target: 'http://127.0.0.1:9096/api/v1/',
+      target: 'http://192.168.31.5:9092/api/v1/',
       changeOrigin: true,
       // pathRewrite: { '^/user-api/': '' },
     },
